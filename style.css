@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(80, 5, 17);
+}
+
+.container {
+   text-align: center;
+   margin-top: 50px;
+}
+
+.title {
+    color: #fff;
+    font-size: 4rem;
+    font-family: cursive;
+}
+
+#inputField {
+    font-size: 2rem;
+    border: 3px solid #555;
+    margin-top: 30px;
+    height: 50px;
+    vertical-align: bottom;
+}
+
+#addTodo {
+   width: 50px;
+   height: 50px;
+   font-size: 30px;
+   border: 3px solid #555;
+}
+
+#addTodo:active {
+    box-shadow: 3px 4px 3px #fff;
+}
+
+#todoContainer {
+    margin-top: 30px;
+}
+
+.paragraph-styling {
+    margin: 0;
+    cursor: pointer;
+    font-size: 20px;
+    color: #fff;
+}
